@@ -173,7 +173,7 @@ h1,h2,h3,h4,h5
 	}
 #home h1
     {
-        border: 2px solid #ffffff;
+        border: 2px solid #000000;
         color: #ffffff;
         display: inline-block;
         letter-spacing: 6px;
