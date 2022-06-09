@@ -5,7 +5,7 @@
  *
  * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
  */
-(function($, window, document, Math, undefined) {
+ (function($, window, document, Math, undefined) {
     'use strict';
 
     // keeping central set of classnames and selectors
