@@ -8,7 +8,7 @@ body
 	}
 	
 a {
-	color: #47C6F8;
+	color: #44494b;
 }
 	
 a:hover {
@@ -246,6 +246,17 @@ header .social-icon li a
 /* end home */
 
 /* start about */
+ .link{
+	background: whitesmoke;
+	color: black;
+	font-weight: bold;
+
+ }
+.link:hover{
+	background-color: #000000;
+	color: white;
+}
+
 #work .media-heading-wrapper
 	{
 		padding-bottom: 32px;
