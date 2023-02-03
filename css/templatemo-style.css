@@ -247,15 +247,23 @@ header .social-icon li a
 
 /* start about */
  .link{
-	background: whitesmoke;
-	color: black;
-	font-weight: bold;
+	background-color: #000000;
+	border: none;
+	color: white;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
 
  }
 .link:hover{
-	background-color: #000000;
-	color: white;
+	background-color: #ffffff;
+	color: rgb(3, 3, 3);
 }
+
 
 #work .media-heading-wrapper
 	{
