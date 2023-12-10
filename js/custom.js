@@ -49,6 +49,6 @@ $(function(){
 
 /* start preloader */
 $(window).load(function(){
-	$('.preloader').fadeOut(100); // set duration in brackets    
+	$('.preloader').fadeOut(10); // set duration in brackets    
 });
 /* end preloader */
