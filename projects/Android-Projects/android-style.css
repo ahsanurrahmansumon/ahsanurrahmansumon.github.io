@@ -1,9 +1,11 @@
 body
 	{
         color: #44494b;
+        background-color: #fafafa;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
-		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
+        margin: 0%;
+        padding: 0%;
 	}
 	
 
@@ -22,6 +24,8 @@ body
         background-color: rgb(157, 226, 9);
         font-weight: bold;
         text-align: center;
+        margin: 0%;
+        padding: 0%;
     }
     
     
