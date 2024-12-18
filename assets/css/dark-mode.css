@@ -851,14 +851,34 @@ body {
   background-color: white;
   transition: 0.4s;
   border-radius: 50%;
+  box-shadow: 0 0 10px #ffbb52;
 }
 
 input:checked + .slider {
-  background-color: var(--color-primary);
+  background-color: #374151;
 }
 
 input:checked + .slider:before {
   transform: translateX(20px);
+  background-color: #262424;
+  box-shadow: 0 0 10px #c6c0c0;
+}
+
+.slider:after {
+  content: "\2600"; /* Sun symbol */
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #ffbb52;
+}
+
+input:checked + .slider:after {
+  content: "\1F319"; /* Moon symbol */
+  left: auto;
+  right: 5px;
+  color: #f1c40f;
 }
 
 #back-to-top {
