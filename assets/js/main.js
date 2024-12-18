@@ -146,4 +146,3 @@ counters.forEach((counter) => {
   };
   updateCounter();
 });
-

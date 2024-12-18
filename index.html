@@ -15,19 +15,18 @@
 
 
     <!--=================== Remixicons ====================-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
 
     <!--=================== SwiperJS CSS ====================-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
 
     <!--=================== Main CSS ====================-->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="/assets/css/light-mode.css">
 
 </head>
 
 <body>
-
     <!--=================== Header ====================-->
     <header id="header" class="header">
         <div class="container">
@@ -37,9 +36,6 @@
                 </a>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#Home" class="nav__link">Home</a>
-                        </li>
                         <li class="nav__item">
                             <a href="#about" class="nav__link">About</a>
                         </li>
@@ -55,8 +51,16 @@
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">Contact</a>
                         </li>
-                    </ul>
+                        <li class="nav__item">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="theme-toggle">
+                                <span class="slider"></span>
+                            </label>
+                        </li>
+                    </ul>   
                 </div>
+                <div>
+                  </div>
                 <div class="nav__toggle">
                     <i id="nav-toggle" class="ri-menu-3-line"></i>
                 </div>
@@ -351,7 +355,6 @@ I was admitted this school in class One. The School is near by Panch rasta moor,
                 </div>
             </div>
         </section>
-
         <!--=================== Testimonials ====================-->
         <section id="testimonial" class="section testimonial">
             <div class="container">
@@ -464,6 +467,7 @@ I was admitted this school in class One. The School is near by Panch rasta moor,
             <p class="footer__copyright">&copy; 2024 Ahsanur Rahman Sumon. All Rights Reserved</p>
         </div>
     </footer>
+    <button id="back-to-top"><i class="ri-arrow-up-line"></i></button>
 
     <!--=================== SwiperJS  ====================-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -473,6 +477,8 @@ I was admitted this school in class One. The School is near by Panch rasta moor,
 
     <!--=================== Main JS ====================-->
     <script src="assets/js/main.js"></script>
+    <script src="/assets/js/mode.js"> </script>
+    <script src="/assets/js/scroll-top.js"> </script>
 </body>
 
 </html>
