@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahsanur Rahman Sumon | Creative Frontend Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description"
+        content="The portfolio of Ahsanur Rahman Sumon, a creative frontend developer specializing in React, Tailwind CSS, and building beautiful web experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dir/style.css" class="css">
+    <link rel="icon" type="image/png" href="/dir/images/icons/favicon.png">
+</head>
+
+<body class="antialiased">
+
+    <!-- Custom Cursor Elements -->
+    <div class="cursor-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Sticky Nav -->
+    <nav class="sticky-nav">
+        <div class="container mx-auto px-4">
+            <div class="glass-card my-4 p-4 rounded-2xl flex justify-between items-center">
+                <a href="#" class="text-xl font-bold">AHSANUR SUMON</a>
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#projects" class="text-slate-300 hover:text-blue-500 transition-colors">Projects</a>
+                    <a href="#skills" class="text-slate-300 hover:text-blue-500 transition-colors">Skills</a>
+                    <a href="#education" class="text-slate-300 hover:text-blue-500 transition-colors">Education</a>
+                    <a href="#testimonials"
+                        class="text-slate-300 hover:text-blue-500 transition-colors">Testimonials</a>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=+8801310227710&text=Hello%2C%20I%20would%20like%20to%20hire%20you!"
+                    class="bg-blue-500 text-white font-bold py-2 px-6 rounded-full hover:scale-105 transition-transform">
+                    Hire Me
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Aurora Background -->
+    <div class="aurora-background">
+        <div class="aurora-shape aurora-shape1"></div>
+        <div class="aurora-shape aurora-shape2"></div>
+        <div class="aurora-shape aurora-shape3"></div>
+    </div>
+
+    <div class="relative z-10">
+        <!-- Header & Hero Section -->
+        <header id="hero" class="relative min-h-screen flex flex-col items-center justify-center text-center p-4">
+            <div class="reveal">
+                <p class="text-lg md:text-xl text-blue-400 mb-4 font-medium">Welcome to my Digital Playground!</p>
+                <h1
+                    class="text-4xl md:text-7xl font-black tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-slate-200 to-slate-400">
+                    Ahsanur Rahman Sumon
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto">
+                    A Creative Frontend Developer passionate about building beautiful, interactive, and accessible web
+                    experiences.
+                </p>
+                <a href="#projects"
+                    class="mt-8 inline-block bg-blue-500 text-white font-bold py-3 px-8 rounded-full text-lg hover:scale-105 transition-transform">
+                    Explore
+                </a>
+            </div>
+            <!-- Scroll Down Indicator -->
+            <div class="absolute bottom-10 left-1/2 -translate-x-1/2">
+                <div
+                    class="w-8 h-12 border-2 border-slate-400 rounded-full flex justify-center items-start p-1 animate-bounce">
+                    <div class="w-1 h-2 bg-slate-400 rounded-full animate-scroll-wheel"></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="container mx-auto px-4 py-16">
+
+            <!-- Projects Section -->
+            <section id="projects" class="py-16">
+                <h2 class="text-4xl font-bold text-center mb-12 reveal">My Projects</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="glass-card rounded-2xl reveal overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="/dir/images/project-images/project-01(ISP).png"
+                            alt="Project One Thumbnail">
+                        <div class="p-6 flex flex-col h-[calc(100%-12rem)]">
+                            <h3 class="text-2xl font-bold mb-2 text-blue-500">ISP Website</h3>
+                            <p class="text-slate-400 mb-4 flex-grow">AeroNet is a modern, fully responsive, and
+                                professional static website designed for a fictional Internet Service Provider based in
+                                Dhaka, Bangladesh..</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">HTML</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">Tailwind
+                                    CSS</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">JS</span>
+                            </div>
+                            <div class="flex items-center gap-4 mt-auto">
+                                <a href="https://ahsanurrahmansumon.github.io/AreoNet/"
+                                    class="flex-1 text-center bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:scale-105 transition-transform flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 001.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                        <path
+                                            d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                                    </svg>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/ahsanurrahmansumon/AreoNet"
+                                    class="flex-1 text-center border-2 border-slate-500 text-slate-300 font-bold py-2 px-4 rounded-full hover:bg-slate-700 hover:border-slate-700 transition-colors flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="glass-card rounded-2xl reveal overflow-hidden" style="transition-delay: 100ms;">
+                        <img class="w-full h-48 object-cover" src="/dir/images/project-images/project-02(E).png"
+                            alt="Project Two Thumbnail">
+                        <div class="p-6 flex flex-col h-[calc(100%-12rem)]">
+                            <h3 class="text-2xl font-bold mb-2 text-blue-500">E-commerce Website</h3>
+                            <p class="text-slate-400 mb-4 flex-grow">FlashCart is a sleek, responsive e-commerce web
+                                application designed to deliver a seamless shopping experience.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">HTML</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">Tailwind
+                                    CSS</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">JS</span>
+                            </div>
+                            <div class="flex items-center gap-4 mt-auto">
+                                <a href="https://magenta-bonbon-b5bbcb.netlify.app/"
+                                    class="flex-1 text-center bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:scale-105 transition-transform flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 001.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                        <path
+                                            d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                                    </svg>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/ahsanurrahmansumon/FlashCart"
+                                    class="flex-1 text-center border-2 border-slate-500 text-slate-300 font-bold py-2 px-4 rounded-full hover:bg-slate-700 hover:border-slate-700 transition-colors flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="glass-card rounded-2xl reveal overflow-hidden" style="transition-delay: 100ms;">
+                        <img class="w-full h-48 object-cover" src="/dir/images/project-images/project-04.png"
+                            alt="Project Two Thumbnail">
+                        <div class="p-6 flex flex-col h-[calc(100%-12rem)]">
+                            <h3 class="text-2xl font-bold mb-2 text-blue-500">Movie Download Platform</h3>
+                            <p class="text-slate-400 mb-4 flex-grow">GlassFlix is a sleek, glassmorphism-inspired movie
+                                download platform offering a wide range of films in English, Hindi, and Bangla.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">HTML</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">Tailwind
+                                    CSS</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">JS</span>
+                            </div>
+                            <div class="flex items-center gap-4 mt-auto">
+                                <a href="https://glassflix.netlify.app/"
+                                    class="flex-1 text-center bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:scale-105 transition-transform flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 001.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                        <path
+                                            d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                                    </svg>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/ahsanurrahmansumon/GlassFlix"
+                                    class="flex-1 text-center border-2 border-slate-500 text-slate-300 font-bold py-2 px-4 rounded-full hover:bg-slate-700 hover:border-slate-700 transition-colors flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 4 -->
+                    <div class="glass-card rounded-2xl reveal overflow-hidden" style="transition-delay: 200ms;">
+                        <img class="w-full h-48 object-cover" src="/dir/images/project-images/project-03(BGPT).png"
+                            alt="Project Three Thumbnail">
+                        <div class="p-6 flex flex-col h-[calc(100%-12rem)]">
+                            <h3 class="text-2xl font-bold mb-2 text-blue-500">BanglaGPT</h3>
+                            <p class="text-slate-400 mb-4 flex-grow">BanglaGPT is a conversational AI assistant designed
+                                to interact with users in Bangla, offering natural language support across a wide range
+                                of tasks. </p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">HTML</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">Js</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">Tailwind
+                                    CSS</span>
+                            </div>
+                            <div class="flex items-center gap-4 mt-auto">
+                                <a href="https://ahsanurrahmansumon.github.io/BanglaGPT/"
+                                    class="flex-1 text-center bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:scale-105 transition-transform flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 001.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                        <path
+                                            d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                                    </svg>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/ahsanurrahmansumon/BanglaGPT"
+                                    class="flex-1 text-center border-2 border-slate-500 text-slate-300 font-bold py-2 px-4 rounded-full hover:bg-slate-700 hover:border-slate-700 transition-colors flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 5 -->
+                    <div class="glass-card rounded-2xl reveal overflow-hidden" style="transition-delay: 200ms;">
+                        <img class="w-full h-48 object-cover" src="/dir/images/project-images/project-05.png"
+                            alt="Project Three Thumbnail">
+                        <div class="p-6 flex flex-col h-[calc(100%-12rem)]">
+                            <h3 class="text-2xl font-bold mb-2 text-blue-500">Educational Consultantion Website</h3>
+                            <p class="text-slate-400 mb-4 flex-grow">EduPrime Consultants is a Dhaka-based educational
+                                consultancy helping students from Bangladesh and beyond pursue higher education abroad.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">HTML</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">Js</span>
+                                <span
+                                    class="bg-gray-700 text-slate-300 text-xs font-semibold px-2.5 py-1 rounded-full">Tailwind
+                                    CSS</span>
+                            </div>
+                            <div class="flex items-center gap-4 mt-auto">
+                                <a href="https://eduprimebd.netlify.app/"
+                                    class="flex-1 text-center bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:scale-105 transition-transform flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 001.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                        <path
+                                            d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                                    </svg>
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/ahsanurrahmansumon/EduPrime-Consultants"
+                                    class="flex-1 text-center border-2 border-slate-500 text-slate-300 font-bold py-2 px-4 rounded-full hover:bg-slate-700 hover:border-slate-700 transition-colors flex items-center justify-center gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="py-16">
+                <div class="text-center mb-12 reveal">
+                    <h2 class="text-4xl font-bold">My Toolkit</h2>
+                </div>
+
+                <!-- Frontend Skills -->
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold text-center mb-8 reveal">Frontend</h3>
+                    <div class="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 text-center">
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/html-5.png" alt="HTML5 Icon">
+                            <p class="font-bold mt-2">HTML</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 50ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/css-3.png" alt="CSS3 Icon">
+                            <p class="font-bold mt-2">CSS</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 100ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/bootstrap.png"
+                                alt="Bootstrap Icon">
+                            <p class="font-bold mt-2">Bootstrap</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 150ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/Tailwind_CSS_Logo.svg.png"
+                                alt="Tailwind CSS Icon">
+                            <p class="font-bold mt-2">Tailwind CSS</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 200ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/js.png" alt="JavaScript Icon">
+                            <p class="font-bold mt-2">JavaScript</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 250ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/React-icon.svg.png"
+                                alt="React Js Icon">
+                            <p class="font-bold mt-2">React Js</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Applications & Tools -->
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold text-center mb-8 reveal">Applications & Tools</h3>
+                    <div class="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/visual-studio-code-icon.png"
+                                alt="VS Code Icon">
+                            <p class="font-bold mt-2">VS Code</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 50ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md"
+                                src="https://placehold.co/64x64/0a0a0a/3b82f6?text=N%2B%2B" alt="Notepad++ Icon">
+                            <p class="font-bold mt-2">Notepad++</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 100ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/netlify.png"
+                                alt="Netlify Icon">
+                            <p class="font-bold mt-2">Netlify</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 150ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/vercel.png" alt="Vercel Icon">
+                            <p class="font-bold mt-2">Vercel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database & Version Control -->
+                <div>
+                    <h3 class="text-2xl font-bold text-center mb-8 reveal">Database & Version Control</h3>
+                    <div class="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-3 gap-8 text-center">
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/mysql.png" alt="MySQL Icon">
+                            <p class="font-bold mt-2">MySQL</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 50ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/git.png" alt="Git Icon">
+                            <p class="font-bold mt-2">Git</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 glass-card rounded-2xl reveal"
+                            style="transition-delay: 100ms;">
+                            <img class="w-12 h-12 mb-2 rounded-md" src="/dir/images/icons/github.png" alt="GitHub Icon">
+                            <p class="font-bold mt-2">GitHub</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="py-16">
+                <h2 class="text-4xl font-bold text-center mb-16 reveal">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-container left">
+                        <div class="timeline-content glass-card reveal">
+                            <h3 class="text-xl font-bold text-blue-500">Master of Science (Professional) in Computer
+                                Science and Engineering</h3>
+                            <p class="text-slate-400 font-medium mb-1">Jagannath University</p>
+                            <p class="text-slate-500 text-sm">2025 - Now</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container right">
+                        <div class="timeline-content glass-card reveal">
+                            <h3 class="text-xl font-bold text-blue-500">Bachelor of Science in Computer Science and
+                                Engineering</h3>
+                            <p class="text-slate-400 font-medium mb-1">Daffodil International University</p>
+                            <p class="text-slate-500 text-sm">2020 - 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-12 reveal">
+                    <a href="/dir/download/AHSANUR RAHMAN SUMON CV.pdf" download="AhsanurRahmanSumon-CV.pdf"
+                        class="border-2 border-blue-500 text-blue-500 font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-500 hover:text-white transition-colors">
+                        Download CV
+                    </a>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section id="testimonials" class="py-16">
+                <h2 class="text-4xl font-bold text-center mb-12 reveal">What Clients Say</h2>
+                <div class="max-w-2xl mx-auto glass-card rounded-2xl p-8 relative overflow-hidden">
+                    <div id="testimonial-slider" class="flex transition-transform duration-700 ease-in-out">
+                        <!-- Testimonial Slide 1 -->
+                        <div class="w-full flex-shrink-0 px-4">
+                            <p class="text-slate-300 italic mb-4 text-center">"Sumon is a truly exceptional developer.
+                                The attention to detail and creative solutions brought our vision to life in ways we
+                                hadn't even imagined. A true professional and a pleasure to work with."</p>
+                            <div class="text-center mt-4">
+                                <p class="font-bold text-blue-500">Jane Smith</p>
+                                <p class="text-sm text-slate-500">CEO, Tech Innovators</p>
+                            </div>
+                        </div>
+                        <!-- Testimonial Slide 2 -->
+                        <div class="w-full flex-shrink-0 px-4">
+                            <p class="text-slate-300 italic mb-4 text-center">"Working with Ahsanur was a seamless
+                                experience. The project was delivered on time, and the final product exceeded all our
+                                expectations. Highly recommended for any ambitious web project."</p>
+                            <div class="text-center mt-4">
+                                <p class="font-bold text-blue-500">John Davis</p>
+                                <p class="text-sm text-slate-500">Marketing Director, Creative Co.</p>
+                            </div>
+                        </div>
+                        <!-- Testimonial Slide 3 -->
+                        <div class="w-full flex-shrink-0 px-4">
+                            <p class="text-slate-300 italic mb-4 text-center">"The level of creativity and technical
+                                skill Sumon brings to the table is outstanding. Our user engagement has significantly
+                                increased since the website redesign. An invaluable asset to our team."</p>
+                            <div class="text-center mt-4">
+                                <p class="font-bold text-blue-500">Emily White</p>
+                                <p class="text-sm text-slate-500">Product Manager, Future Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="py-16 text-center">
+                <div class="reveal">
+                    <h2 class="text-4xl font-bold mb-4">Let's Build Together</h2>
+                    <p class="text-slate-300 max-w-2xl mx-auto mb-8">
+                        Have a project in mind or just want to say hi? Fill out the form below and I'll get back to you
+                        as soon as possible.
+                    </p>
+                </div>
+                <div class="max-w-xl mx-auto mt-8 reveal container mx-auto px-4">
+                    <!-- Replace YOUR_EMAIL@EXAMPLE.COM with your actual email address -->
+                    <form id="contact-form" action="https://formsubmit.co/ahsanur.cse@gmail.com" method="POST"
+                        class="glass-card rounded-2xl p-8 space-y-4">
+                        <!-- FormSubmit Honeypot for spam protection -->
+                        <input type="text" name="_honey" style="display:none">
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Success URL -->
+                        <input type="hidden" name="_next" value="/thank-you.html">
+
+                        <div class="flex flex-col md:flex-row gap-4">
+                            <input type="text" name="name" placeholder="Your Name"
+                                class="w-full bg-gray-800 rounded-lg px-4 py-2 text-white border border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                required>
+                            <input type="email" name="email" placeholder="Your Email"
+                                class="w-full bg-gray-800 rounded-lg px-4 py-2 text-white border border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                required>
+                        </div>
+                        <textarea name="message" placeholder="Your Message" rows="4"
+                            class="w-full bg-gray-800 rounded-lg px-4 py-2 text-white border border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            required></textarea>
+                        <button type="submit"
+                            class="w-full bg-blue-500 text-white font-bold py-3 px-6 rounded-full hover:scale-105 transition-transform">
+                            Send Message
+                        </button>
+                        <p id="form-status" class="text-center h-4 text-green-400"></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 border-t border-gray-800">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://github.com/ahsanurrahmansumon"
+                    class="text-slate-400 hover:text-blue-500 transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/ahsanurrahmansumon/"
+                    class="text-slate-400 hover:text-blue-500 transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.389 0-1.601 1.086-1.601 2.206v4.249H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.337 7.433c-.017-1.174.98-2.166 2.176-2.166 1.196 0 2.174.992 2.174 2.166-.017 1.174-.978 2.166-2.174 2.166-1.196 0-2.159-.992-2.176-2.166zM6.613 16.338H4.068V7.748h2.545v8.59zM17.638 2H6.362A4.362 4.362 0 002 6.362v11.276A4.362 4.362 0 006.362 22h11.276A4.362 4.362 0 0022 17.638V6.362A4.362 4.362 0 0017.638 2z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-blue-500 transition-colors">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <p class="text-slate-400">© <span id="current-year"></span> Ahsanur Rahman Sumon. Crafted with passion.</p>
+        </footer>
+    </div>
+    <script src="/dir/script.js"></script>
+</body>
+
+</html>
